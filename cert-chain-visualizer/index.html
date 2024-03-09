@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Chain Inspector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/antv-g6/5.0.15/g6.min.js"></script>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script>
+        fetch("./cert-tree-data.json")
+            .then((result) => result.json())
+            .then(data => {
+                const graph = new G6.Graph({
+                    container: 'container',
+                    height: 900,
+                    autoFit: 'view',
+                    data: G6.treeToGraphData(data),
+                    node: {
+                        style: (data) => {
+                            return {
+                                labelText: data.id,
+                                labelWordWrap: true,
+                                labelWordWrapWidth: 128,
+                                labelDx: 0,
+                                labelDy: 10,
+                                labelTextAlign: 'center',
+                                labelTextBaseline: 'middle',
+                                ports: [{ placement: 'bottom' }, { placement: 'top' }],
+                            };
+                        },
+                        animation: {
+                            enter: false,
+                        },
+                    },
+                    edge: {
+                        type: 'cubic-vertical',
+                        animation: {
+                            enter: false,
+                        },
+                    },
+                    layout: {
+                        type: 'dendrogram',
+                        direction: 'TB', // H / V / LR / RL / TB / BT
+                        nodeSep: 128,
+                        rankSep: 100,
+                    },
+                    behaviors: ['drag-canvas', 'zoom-canvas', 'drag-element', 'collapse-expand'],
+                    plugins: [
+                        {
+                            type: 'tooltip',
+                            enable: (event) => event.targetType === "node",
+                            getContent: (e, items) => {
+                                const propertiesHtml = items.flatMap((item) => {
+                                    if (Object.hasOwn(item, "properties")) {
+                                        return Object.entries(item.properties);
+                                    }
+                                    return [];
+                                }).map(([key, val]) => {
+                                    return `<pre>${key}: ${val}</pre>`;
+                                }).join("\n");;
+                                return `<h3>Certificate Metadata:</h3>\n${propertiesHtml}`;
+                            },
+                        },
+                    ],
+                })
+
+                graph.render();
+            });
+    </script>
+</body>
+
+</html>

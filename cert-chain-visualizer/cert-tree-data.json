@@ -1,0 +1,1276 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.google.com",
+                            "properties": {
+                                "canonical_name": "*.google.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.google-analytics.com",
+                            "properties": {
+                                "canonical_name": "*.google-analytics.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "misc-sni.blogspot.com",
+                            "properties": {
+                                "canonical_name": "misc-sni.blogspot.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "misc-sni.google.com",
+                            "properties": {
+                                "canonical_name": "misc-sni.google.com"
+                            }
+                        }
+                    ],
+                    "id": "WR2",
+                    "properties": {
+                        "canonical_name": "WR2",
+                        "country": "US",
+                        "organizational_unit": "Google Trust Services"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "mozilla.org",
+                            "properties": {
+                                "canonical_name": "mozilla.org"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "forms.gle",
+                            "properties": {
+                                "canonical_name": "forms.gle"
+                            }
+                        }
+                    ],
+                    "id": "WR3",
+                    "properties": {
+                        "canonical_name": "WR3",
+                        "country": "US",
+                        "organizational_unit": "Google Trust Services"
+                    }
+                }
+            ],
+            "id": "GTS Root R1",
+            "properties": {
+                "canonical_name": "GTS Root R1",
+                "country": "US",
+                "organizational_unit": "Google Trust Services LLC"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.facebook.com",
+                            "properties": {
+                                "canonical_name": "*.facebook.com",
+                                "country": "US",
+                                "locality": "Menlo Park",
+                                "organizational_unit": "Meta Platforms",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.instagram.com",
+                            "properties": {
+                                "canonical_name": "*.instagram.com",
+                                "country": "US",
+                                "locality": "Menlo Park",
+                                "organizational_unit": "Meta Platforms",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.whatsapp.net",
+                            "properties": {
+                                "canonical_name": "*.whatsapp.net",
+                                "country": "US",
+                                "locality": "Menlo Park",
+                                "organizational_unit": "Meta Platforms",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "yahoo.com",
+                            "properties": {
+                                "canonical_name": "yahoo.com",
+                                "country": "US",
+                                "locality": "New York",
+                                "organizational_unit": "Yahoo Holdings Inc.",
+                                "state": "New York"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert SHA2 High Assurance Server CA",
+                    "properties": {
+                        "canonical_name": "DigiCert SHA2 High Assurance Server CA",
+                        "country": "US",
+                        "organization": "www.digicert.com",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "itunes.apple.com",
+                            "properties": {
+                                "canonical_name": "itunes.apple.com",
+                                "country": "US",
+                                "locality": "Cupertino",
+                                "organizational_unit": "Apple Inc.",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "support.apple.com",
+                            "properties": {
+                                "canonical_name": "support.apple.com",
+                                "country": "US",
+                                "locality": "Cupertino",
+                                "organizational_unit": "Apple Inc.",
+                                "state": "California"
+                            }
+                        }
+                    ],
+                    "id": "Apple Public EV Server RSA CA 2 - G1",
+                    "properties": {
+                        "canonical_name": "Apple Public EV Server RSA CA 2 - G1",
+                        "country": "US",
+                        "organizational_unit": "Apple Inc."
+                    }
+                }
+            ],
+            "id": "DigiCert High Assurance EV Root CA",
+            "properties": {
+                "canonical_name": "DigiCert High Assurance EV Root CA",
+                "country": "US",
+                "organization": "www.digicert.com",
+                "organizational_unit": "DigiCert Inc"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.twitter.com",
+                            "properties": {
+                                "canonical_name": "*.twitter.com",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "Twitter",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.pinterest.com",
+                            "properties": {
+                                "canonical_name": "*.pinterest.com",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "Pinterest",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.github.io",
+                            "properties": {
+                                "canonical_name": "*.github.io",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "GitHub",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.spotify.com",
+                            "properties": {
+                                "canonical_name": "*.spotify.com",
+                                "country": "SE",
+                                "locality": "Stockholm",
+                                "organizational_unit": "Spotify AB"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.zoom.us",
+                            "properties": {
+                                "canonical_name": "*.zoom.us",
+                                "country": "US",
+                                "locality": "San Jose",
+                                "organizational_unit": "Zoom Video Communications",
+                                "state": "California"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                    "properties": {
+                        "canonical_name": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "microsoft.com",
+                            "properties": {
+                                "canonical_name": "microsoft.com",
+                                "country": "US",
+                                "locality": "Redmond",
+                                "organizational_unit": "Microsoft Corporation",
+                                "state": "WA"
+                            }
+                        }
+                    ],
+                    "id": "Microsoft Azure RSA TLS Issuing CA 08",
+                    "properties": {
+                        "canonical_name": "Microsoft Azure RSA TLS Issuing CA 08",
+                        "country": "US",
+                        "organizational_unit": "Microsoft Corporation"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "bit.ly",
+                            "properties": {
+                                "canonical_name": "bit.ly",
+                                "country": "US",
+                                "locality": "New York",
+                                "organizational_unit": "Bitly",
+                                "state": "New York"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "paypal.com",
+                            "properties": {
+                                "canonical_name": "paypal.com",
+                                "country": "US",
+                                "locality": "San Jose",
+                                "organizational_unit": "PayPal",
+                                "state": "California"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert EV RSA CA G2",
+                    "properties": {
+                        "canonical_name": "DigiCert EV RSA CA G2",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.peg.a2z.com",
+                            "properties": {
+                                "canonical_name": "*.peg.a2z.com"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert Global CA G2",
+                    "properties": {
+                        "canonical_name": "DigiCert Global CA G2",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.tiktok.com",
+                            "properties": {
+                                "canonical_name": "*.tiktok.com"
+                            }
+                        }
+                    ],
+                    "id": "RapidSSL TLS RSA CA G1",
+                    "properties": {
+                        "canonical_name": "RapidSSL TLS RSA CA G1",
+                        "country": "US",
+                        "organization": "www.digicert.com",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "portal.office.com",
+                            "properties": {
+                                "canonical_name": "portal.office.com",
+                                "country": "US",
+                                "locality": "Redmond",
+                                "organizational_unit": "Microsoft Corporation",
+                                "state": "WA"
+                            }
+                        }
+                    ],
+                    "id": "Microsoft Azure RSA TLS Issuing CA 04",
+                    "properties": {
+                        "canonical_name": "Microsoft Azure RSA TLS Issuing CA 04",
+                        "country": "US",
+                        "organizational_unit": "Microsoft Corporation"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "go.microsoft.com",
+                            "properties": {
+                                "canonical_name": "go.microsoft.com",
+                                "country": "US",
+                                "locality": "Redmond",
+                                "organizational_unit": "Microsoft Corporation",
+                                "state": "WA"
+                            }
+                        }
+                    ],
+                    "id": "Microsoft Azure RSA TLS Issuing CA 07",
+                    "properties": {
+                        "canonical_name": "Microsoft Azure RSA TLS Issuing CA 07",
+                        "country": "US",
+                        "organizational_unit": "Microsoft Corporation"
+                    }
+                }
+            ],
+            "id": "DigiCert Global Root G2",
+            "properties": {
+                "canonical_name": "DigiCert Global Root G2",
+                "country": "US",
+                "organization": "www.digicert.com",
+                "organizational_unit": "DigiCert Inc"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "www.linkedin.com",
+                            "properties": {
+                                "canonical_name": "www.linkedin.com",
+                                "country": "US",
+                                "locality": "Sunnyvale",
+                                "organizational_unit": "LinkedIn Corporation",
+                                "state": "California"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert SHA2 Secure Server CA",
+                    "properties": {
+                        "canonical_name": "DigiCert SHA2 Secure Server CA",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.wikipedia.org",
+                            "properties": {
+                                "canonical_name": "*.wikipedia.org",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "Wikimedia Foundation",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.opera.com",
+                            "properties": {
+                                "canonical_name": "*.opera.com",
+                                "country": "NO",
+                                "locality": "Oslo",
+                                "organizational_unit": "Opera Norway AS",
+                                "state": "Oslo"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+                    "properties": {
+                        "canonical_name": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.adobe.com",
+                            "properties": {
+                                "canonical_name": "*.adobe.com",
+                                "country": "US",
+                                "locality": "San Jose",
+                                "organizational_unit": "Adobe Inc",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.reddit.com",
+                            "properties": {
+                                "canonical_name": "*.reddit.com",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "REDDIT",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.dropbox.com",
+                            "properties": {
+                                "canonical_name": "*.dropbox.com",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "Dropbox",
+                                "state": "California"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert TLS RSA SHA256 2020 CA1",
+                    "properties": {
+                        "canonical_name": "DigiCert TLS RSA SHA256 2020 CA1",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "qq.com",
+                            "properties": {
+                                "canonical_name": "qq.com",
+                                "country": "CN",
+                                "locality": "Shenzhen",
+                                "organizational_unit": "Shenzhen Tencent Computer Systems Company Limited",
+                                "state": "Guangdong Province"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert Secure Site CN CA G3",
+                    "properties": {
+                        "canonical_name": "DigiCert Secure Site CN CA G3",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "nytimes.com",
+                            "properties": {
+                                "canonical_name": "nytimes.com"
+                            }
+                        }
+                    ],
+                    "id": "Thawte RSA CA 2018",
+                    "properties": {
+                        "canonical_name": "Thawte RSA CA 2018",
+                        "country": "US",
+                        "organization": "www.digicert.com",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "www.baidu.cn",
+                            "properties": {
+                                "canonical_name": "www.baidu.cn",
+                                "country": "CN",
+                                "organizational_unit": "BeiJing Baidu Netcom Science Technology Co.",
+                                "state": "\u5317\u4eac\u5e02"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert Secure Site Pro CN CA G3",
+                    "properties": {
+                        "canonical_name": "DigiCert Secure Site Pro CN CA G3",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "outlook.live.com",
+                            "properties": {
+                                "canonical_name": "outlook.live.com",
+                                "country": "US",
+                                "locality": "Redmond",
+                                "organizational_unit": "Microsoft Corporation",
+                                "state": "Washington"
+                            }
+                        }
+                    ],
+                    "id": "DigiCert Cloud Services CA-1",
+                    "properties": {
+                        "canonical_name": "DigiCert Cloud Services CA-1",
+                        "country": "US",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "web.mit.edu",
+                            "properties": {
+                                "canonical_name": "web.mit.edu",
+                                "country": "US",
+                                "locality": "Cambridge",
+                                "organizational_unit": "Massachusetts Institute of Technology",
+                                "state": "Massachusetts"
+                            }
+                        }
+                    ],
+                    "id": "GeoTrust RSA CA 2018",
+                    "properties": {
+                        "canonical_name": "GeoTrust RSA CA 2018",
+                        "country": "US",
+                        "organization": "www.digicert.com",
+                        "organizational_unit": "DigiCert Inc"
+                    }
+                }
+            ],
+            "id": "DigiCert Global Root CA",
+            "properties": {
+                "canonical_name": "DigiCert Global Root CA",
+                "country": "US",
+                "organization": "www.digicert.com",
+                "organizational_unit": "DigiCert Inc"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "apple.com",
+                            "properties": {
+                                "canonical_name": "apple.com",
+                                "country": "US",
+                                "locality": "Cupertino",
+                                "organizational_unit": "Apple Inc.",
+                                "state": "California"
+                            }
+                        }
+                    ],
+                    "id": "Apple Public EV Server ECC CA 1 - G1",
+                    "properties": {
+                        "canonical_name": "Apple Public EV Server ECC CA 1 - G1",
+                        "country": "US",
+                        "organizational_unit": "Apple Inc."
+                    }
+                }
+            ],
+            "id": "DigiCert Global Root G3",
+            "properties": {
+                "canonical_name": "DigiCert Global Root G3",
+                "country": "US",
+                "organization": "www.digicert.com",
+                "organizational_unit": "DigiCert Inc"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.wordpress.org",
+                            "properties": {
+                                "canonical_name": "*.wordpress.org"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "github.com",
+                            "properties": {
+                                "canonical_name": "github.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.wordpress.com",
+                            "properties": {
+                                "canonical_name": "*.wordpress.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.tumblr.com",
+                            "properties": {
+                                "canonical_name": "*.tumblr.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.gravatar.com",
+                            "properties": {
+                                "canonical_name": "*.gravatar.com"
+                            }
+                        }
+                    ],
+                    "id": "Sectigo ECC Domain Validation Secure Server CA",
+                    "properties": {
+                        "canonical_name": "Sectigo ECC Domain Validation Secure Server CA",
+                        "country": "GB",
+                        "locality": "Salford",
+                        "organizational_unit": "Sectigo Limited",
+                        "state": "Greater Manchester"
+                    }
+                }
+            ],
+            "id": "USERTrust ECC Certification Authority",
+            "properties": {
+                "canonical_name": "USERTrust ECC Certification Authority",
+                "country": "US",
+                "locality": "Jersey City",
+                "organizational_unit": "The USERTRUST Network",
+                "state": "New Jersey"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "vimeo.com",
+                            "properties": {
+                                "canonical_name": "vimeo.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "player.vimeo.com",
+                            "properties": {
+                                "canonical_name": "player.vimeo.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "cloudflare.com",
+                            "properties": {
+                                "canonical_name": "cloudflare.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "creativecommons.org",
+                            "properties": {
+                                "canonical_name": "creativecommons.org"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "sciencedirect.com",
+                            "properties": {
+                                "canonical_name": "sciencedirect.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "who.int",
+                            "properties": {
+                                "canonical_name": "who.int"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "doi.org",
+                            "properties": {
+                                "canonical_name": "doi.org"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "tinyurl.com",
+                            "properties": {
+                                "canonical_name": "tinyurl.com"
+                            }
+                        }
+                    ],
+                    "id": "WE1",
+                    "properties": {
+                        "canonical_name": "WE1",
+                        "country": "US",
+                        "organizational_unit": "Google Trust Services"
+                    }
+                }
+            ],
+            "id": "GTS Root R4",
+            "properties": {
+                "canonical_name": "GTS Root R4",
+                "country": "US",
+                "organizational_unit": "Google Trust Services LLC"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "europa.eu",
+                            "properties": {
+                                "canonical_name": "europa.eu",
+                                "country": "BE",
+                                "locality": "Brussels",
+                                "organizational_unit": "European Commission",
+                                "state": "Brussels-Capital Region"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.ec.europa.eu",
+                            "properties": {
+                                "canonical_name": "*.ec.europa.eu",
+                                "country": "BE",
+                                "locality": "Brussels",
+                                "organizational_unit": "European Commission",
+                                "state": "Brussels-Capital Region"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "www.bbc.com",
+                            "properties": {
+                                "canonical_name": "www.bbc.com",
+                                "country": "GB",
+                                "locality": "London",
+                                "organizational_unit": "BRITISH BROADCASTING CORPORATION",
+                                "state": "London"
+                            }
+                        }
+                    ],
+                    "id": "GlobalSign RSA OV SSL CA 2018",
+                    "properties": {
+                        "canonical_name": "GlobalSign RSA OV SSL CA 2018",
+                        "country": "BE",
+                        "organizational_unit": "GlobalSign nv-sa"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.soundcloud.com",
+                            "properties": {
+                                "canonical_name": "*.soundcloud.com"
+                            }
+                        }
+                    ],
+                    "id": "GlobalSign GCC R3 DV TLS CA 2020",
+                    "properties": {
+                        "canonical_name": "GlobalSign GCC R3 DV TLS CA 2020",
+                        "country": "BE",
+                        "organizational_unit": "GlobalSign nv-sa"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "forbes.com",
+                            "properties": {
+                                "canonical_name": "forbes.com"
+                            }
+                        }
+                    ],
+                    "id": "GlobalSign Atlas R3 DV TLS CA 2024 Q1",
+                    "properties": {
+                        "canonical_name": "GlobalSign Atlas R3 DV TLS CA 2024 Q1",
+                        "country": "BE",
+                        "organizational_unit": "GlobalSign nv-sa"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "theguardian.com",
+                            "properties": {
+                                "canonical_name": "theguardian.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "cnn.com",
+                            "properties": {
+                                "canonical_name": "cnn.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.issuu.com",
+                            "properties": {
+                                "canonical_name": "*.issuu.com"
+                            }
+                        }
+                    ],
+                    "id": "GlobalSign Atlas R3 DV TLS CA 2024 Q3",
+                    "properties": {
+                        "canonical_name": "GlobalSign Atlas R3 DV TLS CA 2024 Q3",
+                        "country": "BE",
+                        "organizational_unit": "GlobalSign nv-sa"
+                    }
+                }
+            ],
+            "id": "GlobalSign",
+            "properties": {
+                "canonical_name": "GlobalSign",
+                "organization": "GlobalSign Root CA - R3",
+                "organizational_unit": "GlobalSign"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.t.me",
+                            "properties": {
+                                "canonical_name": "*.t.me"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "www.nih.gov",
+                            "properties": {
+                                "canonical_name": "www.nih.gov"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.archive.org",
+                            "properties": {
+                                "canonical_name": "*.archive.org"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.ncbi.nlm.nih.gov",
+                            "properties": {
+                                "canonical_name": "*.ncbi.nlm.nih.gov"
+                            }
+                        }
+                    ],
+                    "id": "Go Daddy Secure Certificate Authority - G2",
+                    "properties": {
+                        "canonical_name": "Go Daddy Secure Certificate Authority - G2",
+                        "country": "US",
+                        "locality": "Scottsdale",
+                        "organization": "http://certs.godaddy.com/repository/",
+                        "organizational_unit": "GoDaddy.com",
+                        "state": "Arizona"
+                    }
+                }
+            ],
+            "id": "Go Daddy Root Certificate Authority - G2",
+            "properties": {
+                "canonical_name": "Go Daddy Root Certificate Authority - G2",
+                "country": "US",
+                "locality": "Scottsdale",
+                "organizational_unit": "GoDaddy.com",
+                "state": "Arizona"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "apache.org",
+                            "properties": {
+                                "canonical_name": "apache.org"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.apache.org",
+                            "properties": {
+                                "canonical_name": "*.apache.org"
+                            }
+                        }
+                    ],
+                    "id": "R11",
+                    "properties": {
+                        "canonical_name": "R11",
+                        "country": "US",
+                        "organizational_unit": "Let's Encrypt"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "nginx.org",
+                            "properties": {
+                                "canonical_name": "nginx.org"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "*.support.mozilla.org",
+                            "properties": {
+                                "canonical_name": "*.support.mozilla.org"
+                            }
+                        }
+                    ],
+                    "id": "R10",
+                    "properties": {
+                        "canonical_name": "R10",
+                        "country": "US",
+                        "organizational_unit": "Let's Encrypt"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.nginx.com",
+                            "properties": {
+                                "canonical_name": "*.nginx.com"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "harvard.edu",
+                            "properties": {
+                                "canonical_name": "harvard.edu"
+                            }
+                        }
+                    ],
+                    "id": "E6",
+                    "properties": {
+                        "canonical_name": "E6",
+                        "country": "US",
+                        "organizational_unit": "Let's Encrypt"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "t.co",
+                            "properties": {
+                                "canonical_name": "t.co"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "weebly.com",
+                            "properties": {
+                                "canonical_name": "weebly.com"
+                            }
+                        }
+                    ],
+                    "id": "E5",
+                    "properties": {
+                        "canonical_name": "E5",
+                        "country": "US",
+                        "organizational_unit": "Let's Encrypt"
+                    }
+                }
+            ],
+            "id": "ISRG Root X1",
+            "properties": {
+                "canonical_name": "ISRG Root X1",
+                "country": "US",
+                "organizational_unit": "Internet Security Research Group"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "flickr.com",
+                            "properties": {
+                                "canonical_name": "flickr.com"
+                            }
+                        }
+                    ],
+                    "id": "Amazon RSA 2048 M02",
+                    "properties": {
+                        "canonical_name": "Amazon RSA 2048 M02",
+                        "country": "US",
+                        "organizational_unit": "Amazon"
+                    }
+                }
+            ],
+            "id": "Amazon Root CA 1",
+            "properties": {
+                "canonical_name": "Amazon Root CA 1",
+                "country": "US",
+                "organizational_unit": "Amazon"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "medium.com",
+                            "properties": {
+                                "canonical_name": "medium.com",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "Cloudflare",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "w3.org",
+                            "properties": {
+                                "canonical_name": "w3.org",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "Cloudflare",
+                                "state": "California"
+                            }
+                        },
+                        {
+                            "children": [],
+                            "id": "sourceforge.net",
+                            "properties": {
+                                "canonical_name": "sourceforge.net",
+                                "country": "US",
+                                "locality": "San Francisco",
+                                "organizational_unit": "Cloudflare",
+                                "state": "California"
+                            }
+                        }
+                    ],
+                    "id": "Cloudflare Inc ECC CA-3",
+                    "properties": {
+                        "canonical_name": "Cloudflare Inc ECC CA-3",
+                        "country": "US",
+                        "organizational_unit": "Cloudflare"
+                    }
+                }
+            ],
+            "id": "Baltimore CyberTrust Root",
+            "properties": {
+                "canonical_name": "Baltimore CyberTrust Root",
+                "country": "IE",
+                "organization": "CyberTrust",
+                "organizational_unit": "Baltimore"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.miit.gov.cn",
+                            "properties": {
+                                "canonical_name": "*.miit.gov.cn",
+                                "country": "CN",
+                                "organizational_unit": "\u5de5\u4e1a\u548c\u4fe1\u606f\u5316\u90e8\u7f51\u7edc\u5b89\u5168\u4ea7\u4e1a\u53d1\u5c55\u4e2d\u5fc3\uff08\u5de5\u4e1a\u548c\u4fe1\u606f\u5316\u90e8\u4fe1\u606f\u4e2d\u5fc3\uff09",
+                                "state": "\u5317\u4eac\u5e02"
+                            }
+                        }
+                    ],
+                    "id": "sslTrus (RSA) OV CA",
+                    "properties": {
+                        "canonical_name": "sslTrus (RSA) OV CA",
+                        "country": "CN",
+                        "organizational_unit": "sslTrus"
+                    }
+                }
+            ],
+            "id": "USERTrust RSA Certification Authority",
+            "properties": {
+                "canonical_name": "USERTrust RSA Certification Authority",
+                "country": "US",
+                "locality": "Jersey City",
+                "organizational_unit": "The USERTRUST Network",
+                "state": "New Jersey"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "open.spotify.com",
+                            "properties": {
+                                "canonical_name": "open.spotify.com"
+                            }
+                        }
+                    ],
+                    "id": "Certainly Intermediate R1",
+                    "properties": {
+                        "canonical_name": "Certainly Intermediate R1",
+                        "country": "US",
+                        "organizational_unit": "Certainly"
+                    }
+                }
+            ],
+            "id": "Starfield Root Certificate Authority - G2",
+            "properties": {
+                "canonical_name": "Starfield Root Certificate Authority - G2",
+                "country": "US",
+                "locality": "Scottsdale",
+                "organizational_unit": "Starfield Technologies",
+                "state": "Arizona"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "*.vk.com",
+                            "properties": {
+                                "canonical_name": "*.vk.com",
+                                "country": "RU",
+                                "locality": "Saint Petersburg",
+                                "organizational_unit": "V Kontakte LLC",
+                                "state": "Saint Petersburg"
+                            }
+                        }
+                    ],
+                    "id": "GlobalSign ECC OV SSL CA 2018",
+                    "properties": {
+                        "canonical_name": "GlobalSign ECC OV SSL CA 2018",
+                        "country": "BE",
+                        "organizational_unit": "GlobalSign nv-sa"
+                    }
+                }
+            ],
+            "id": "GlobalSign",
+            "properties": {
+                "canonical_name": "GlobalSign",
+                "organization": "GlobalSign ECC Root CA - R5",
+                "organizational_unit": "GlobalSign"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "www.cdc.gov",
+                            "properties": {
+                                "canonical_name": "www.cdc.gov",
+                                "country": "US",
+                                "locality": "Atlanta",
+                                "organizational_unit": "Centers for Disease Control and Prevention",
+                                "state": "Georgia"
+                            }
+                        }
+                    ],
+                    "id": "Entrust Certification Authority - L1K",
+                    "properties": {
+                        "canonical_name": "Entrust Certification Authority - L1K",
+                        "country": "US",
+                        "organization": "See www.entrust.net/legal-terms",
+                        "organizational_unit": "Entrust"
+                    }
+                }
+            ],
+            "id": "Entrust Root Certification Authority - G2",
+            "properties": {
+                "canonical_name": "Entrust Root Certification Authority - G2",
+                "country": "US",
+                "organization": "See www.entrust.net/legal-terms",
+                "organizational_unit": "Entrust"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "id": "thomsonreuters.com",
+                            "properties": {
+                                "canonical_name": "thomsonreuters.com",
+                                "country": "CA",
+                                "organizational_unit": "Thomson Reuters Corporation",
+                                "state": "Ontario"
+                            }
+                        }
+                    ],
+                    "id": "COMODO RSA Organization Validation Secure Server CA",
+                    "properties": {
+                        "canonical_name": "COMODO RSA Organization Validation Secure Server CA",
+                        "country": "GB",
+                        "locality": "Salford",
+                        "organizational_unit": "COMODO CA Limited",
+                        "state": "Greater Manchester"
+                    }
+                }
+            ],
+            "id": "COMODO RSA Certification Authority",
+            "properties": {
+                "canonical_name": "COMODO RSA Certification Authority",
+                "country": "GB",
+                "locality": "Salford",
+                "organizational_unit": "COMODO CA Limited",
+                "state": "Greater Manchester"
+            }
+        }
+    ],
+    "id": "-",
+    "properties": {
+        "canonical_name": "-"
+    }
+}
