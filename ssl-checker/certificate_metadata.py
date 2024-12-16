@@ -54,13 +54,17 @@ def getCertificateDetails(hostname, port):
             print(f"Issued by: {attribute.value}")
 
         # Expiration date details
-        expire_date = cert.not_valid_after_utc
+        expire_date = cert.not_valid_after
         print(f'Valid until (UTC time): {expire_date}')
         # The cert.not_valid_after_utc property from a certificate returns the expiration date and time in UTC.
         # The datetime.now() method returns the current local date and time without any timezone information.
         # To avoid any problems, use datetime.now(timezone.utc) to get the current date and time in UTC.
-        expires_in = expire_date - datetime.now(timezone.utc)
-
+        current_time = datetime.now(timezone.utc)
+        #print(expire_date,current_time)
+        if expire_date.tzinfo is None:
+            expire_date = expire_date.replace(tzinfo=timezone.utc)
+            #print(f'Adjusted expire_date with timezone: {expire_date}')
+        expires_in = expire_date - current_time
         if expires_in.days >= 0:
             print(f'Expires in {expires_in.days} days')
         else:
