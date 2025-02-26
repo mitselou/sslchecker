@@ -36,7 +36,21 @@ def get_certificate(
         protocol_version,
         cipher,
     )
-    conn_cmd = [
+    #print(protocol_version)
+    if protocol_version=='tls1_3':
+        conn_cmd = [
+        "openssl",
+        "s_client",
+        "-ciphersuites",
+        cipher,
+        f"-{protocol_version}",
+        "-servername",
+        host,
+        "-connect",
+        f"{host}:{port}",
+    ]
+    else:
+        conn_cmd = [
         "openssl",
         "s_client",
         "-cipher",
@@ -47,6 +61,7 @@ def get_certificate(
         "-connect",
         f"{host}:{port}",
     ]
+
     conn_proc = subprocess.run(conn_cmd, stdin=subprocess.DEVNULL, capture_output=True)
     if conn_proc.returncode != 0:
         logging.debug(
@@ -100,7 +115,6 @@ def get_supported_protocol_cipher_combinations(
                 unsupported_ciphers.append((protocol_version, cipher))
     return supported_ciphers, unsupported_ciphers
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Checks which of the installed SSL versions and which ciphers a server supports"
@@ -112,8 +126,8 @@ def main() -> None:
     supported, unsupported = get_supported_protocol_cipher_combinations(host, port)
     print("Supported:")
     pprint(supported)
-    print("\n\nUnsupported:")
-    pprint(unsupported)
+    #print("\n\nUnsupported:")
+    #pprint(unsupported)
 
 
 if __name__ == "__main__":

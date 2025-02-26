@@ -5,6 +5,7 @@ from tkinter import ttk
 from ssl_checker import get_supported_protocol_cipher_combinations, get_openssl_version
 from threading import Thread
 from collections import defaultdict
+import heartbleed
 import functools
 from cryptography import x509
 from cryptography.hazmat.primitives import serialization
@@ -300,10 +301,27 @@ main_frame.grid(sticky=tk.NSEW)
 host_label = ttk.Label(main_frame, text="Host:")
 host_entry = ttk.Entry(main_frame, textvariable=host_strvar)
 port_label = ttk.Label(main_frame, text="Port:")
+<<<<<<< HEAD:ssl-checker/ssl_checker_gui.py
 port_entry = ttk.Entry(main_frame, textvariable=port_strvar, validate="key", validatecommand=(validate_port, "%P"))
 
 check_button = ttk.Button(main_frame, text="Check SSL/TLS", command=lambda: Thread(target=check_supported).start())
 heartbleed_button = ttk.Button(main_frame, text="Check Heartbleed", command=lambda: Thread(target=check_heartbleed).start())
+=======
+port_entry = ttk.Entry(
+    main_frame,
+    textvariable=port_strvar,
+    validate="key",
+    validatecommand=(validate_port, "%P"),
+)
+check_button = ttk.Button(
+    main_frame, text="Check", command=lambda: Thread(target=check_supported).start()
+)
+check_heartbleed_button = ttk.Button(
+    main_frame,
+    text="Check Heartbleed",
+    command=lambda: Thread(target=check_heartbleed).start()
+)
+>>>>>>> upstream/main:ssl-checker/gui/ssl_checker_gui.py
 progressbar = ttk.Progressbar(main_frame, mode="indeterminate")
 checked_tree = ttk.Treeview(main_frame)
 options_button = ttk.Button(main_frame, text="OpenSSL Version", command=show_openssl_version_message)
@@ -314,13 +332,55 @@ host_entry.grid(column=1, row=0, sticky=tk.EW)
 port_label.grid(column=0, row=1)
 port_entry.grid(column=1, row=1, sticky=tk.EW)
 check_button.grid(column=0, columnspan=2, row=2, pady=(10, 0), sticky=tk.EW)
+<<<<<<< HEAD:ssl-checker/ssl_checker_gui.py
 heartbleed_button.grid(column=0, columnspan=2, row=3, pady=(5, 0), sticky=tk.EW)
 progressbar.grid(column=0, columnspan=2, row=4, pady=(5, 0), sticky=tk.EW)
 checked_tree.grid(column=0, columnspan=2, row=5, pady=(10, 0), sticky=tk.NSEW)
 options_button.grid(column=1, row=6, pady=(10, 0), sticky=tk.E)
 
+=======
+check_heartbleed_button.grid(column=0, columnspan=2, row=6, pady=(10, 0), sticky=tk.EW)
+progressbar.grid(column=0, columnspan=2, row=3, pady=(5, 0), sticky=tk.EW)
+checked_tree.grid(column=0, columnspan=2, row=4, pady=(10, 0), sticky=tk.NSEW)
+options_button.grid(column=1, row=5, pady=(10, 0), sticky=tk.E)
+>>>>>>> upstream/main:ssl-checker/gui/ssl_checker_gui.py
 # Make ctrl+a select all for the entries
 host_entry.bind("<Control-KeyRelease-a>", select_all_callback)
 port_entry.bind("<Control-KeyRelease-a>", select_all_callback)
+
+# Function to handle Heartbleed check when the button is pressed
+def check_heartbleed() -> None:
+    # Disable the button and inputs while checking
+    check_heartbleed_button.config(state=tk.DISABLED)
+    host_entry.config(state=tk.DISABLED)
+    port_entry.config(state=tk.DISABLED)
+    progressbar.start()
+
+    try:
+        # Get the host and port values from the entry fields
+        host = host_strvar.get()
+        port = int(port_strvar.get())
+        # Call the heartbleed module's send_heartbeat function to check for vulnerability
+        result = heartbleed.send_heartbeat(host, port)
+
+        # Check the result and display appropriate messages
+        if result == "vulnerable":
+            tk_messagebox.showwarning("Heartbleed Check", "Heartbleed vulnerability detected!")
+        elif result == "secure":
+            tk_messagebox.showinfo("Heartbleed Check", "Server is secure against Heartbleed.")
+        elif result == "no_response":
+            tk_messagebox.showinfo("Heartbleed Check", "No Heartbeat response received. Server might be secure.")
+        else:
+            tk_messagebox.showerror("Heartbleed Check", "Unexpected response received during Heartbleed check.")
+
+    except Exception as exc:
+        # Show error message if anything goes wrong
+        tk_messagebox.showerror("Error", f"Heartbleed check failed:\n{str(exc)}")
+    # Re-enable the button and inputs after the check is done
+    progressbar.stop()
+    port_entry.config(state=tk.NORMAL)
+    host_entry.config(state=tk.NORMAL)
+    check_heartbleed_button.config(state=tk.NORMAL)
+
 
 root.mainloop()

@@ -1,0 +1,11 @@
+cryptography
+socket
+ssl
+struct
+certifi
+sys
+socket
+logging
+re
+subprocess
+pprint
